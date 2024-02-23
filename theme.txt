@@ -26,7 +26,7 @@ terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
     selected_item_color = "#ff8000"
     item_spacing = 5
 
-    item_padding = 20
+    item_padding = 25
     item_height = 27
     item_width = 27
     selected_item_pixmap_style = "highlight_*.png"
