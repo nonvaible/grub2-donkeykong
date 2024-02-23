@@ -38,14 +38,14 @@ terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
 # Show progress
 + progress_bar {
   id = "__timeout__"
-  left = 1%
+  left = 50%
   width = 100%
-  top = 1%
-  height = 31
-  show_text = false
-  text = "Game is loading..."
-  fg_color = "#3daee9"
-  bg_color = "#31363b"
-  border_color = "#31363b"
-  highlight_style = "progress_highlight_*.png"
+  top = 100%-31
+  height = 25
+  text = "Game is loading... %d "
+  align = "right"
+  show_text = true
+  color = "#FFFFFF"
+  #highlight_style = "progress_highlight_*.png"
 }
+
