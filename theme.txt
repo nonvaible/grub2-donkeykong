@@ -16,10 +16,10 @@ terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
 
 # boot menu
 + boot_menu {
-    left = 25%
+    left = 15%
     width = 50%
     top = 60%
-    height = 40%
+    height = 30%
     item_font = "Donkey Kong Classics (NES) (Extended) Regular 24"
     item_color = "#ff8000"
     selected_item_font = "Donkey Kong Classics (NES) (Extended) Regular 24"
@@ -27,8 +27,8 @@ terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
     item_spacing = 5
 
     item_padding = 20
-    item_height = 33
-    item_width = 33
+    item_height = 20
+    item_width = 20
     selected_item_pixmap_style = "highlight_*.png"
 
 }
