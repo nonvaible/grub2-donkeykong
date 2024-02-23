@@ -16,7 +16,7 @@ terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
 
 # boot menu
 + boot_menu {
-    left = 60%
+    left = 35%
     width = 50%
     top = 60%
     height = 40%
@@ -26,20 +26,16 @@ terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
     selected_item_color = "#ff8000"
     item_spacing = 5
 
-    item_icon_space = 5
-    icon_width = 32
-		icon_height = 32
-
     item_padding = 20
     item_height = 33
-#   selected_item_pixmap_style = "highlight_c.png"
+    selected_item_pixmap_style = "highlight_*.png"
 
 }
 
 # Show progress
 + progress_bar {
   id = "__timeout__"
-  left = 100%
+  left = 1%
   width = 100%
   top = 1%
   height = 31
