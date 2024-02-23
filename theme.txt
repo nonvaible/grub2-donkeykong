@@ -1,0 +1,48 @@
+#####################################################################
+##################### Dilan Diler - nonvaible #######################
+######################## Copyright (C) 2024 #########################
+#####################################################################
+
+
+# general
+title-text: ""
+title-color: "#ffffff"
+message-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
+message-color: "#ff8000"
+message-bg-color: "#ffffff"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
+
+# boot menu
++ boot_menu {
+    left = 30%
+    width = 50%
+    top = 55%
+    height = 40%
+    item_font = "Donkey Kong Classics (NES) (Extended) Regular 24"
+    item_color = "#ff8000"
+    selected_item_font = "Donkey Kong Classics (NES) (Extended) Regular 24"
+    selected_item_color = "#ff8000"
+    item_spacing = 5
+    item_icon_space = 5
+    item_padding = 20
+    item_height = 33
+    selected_item_pixmap_style = "highlight_*.png"
+
+}
+
+# Show progress
++ progress_bar {
+  id = "__timeout__"
+  left = 100%
+  width = 100%
+  top = 1%
+  height = 31
+  show_text = false
+  text = "Game is loading..."
+  fg_color = "#3daee9"
+  bg_color = "#31363b"
+  border_color = "#31363b"
+  highlight_style = "progress_highlight_*.png"
+}
