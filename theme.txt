@@ -18,7 +18,7 @@ terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
 + boot_menu {
     left = 17%
     width = 64%
-    top = 55%
+    top = 58%
     height = 30%
     item_font = "Donkey Kong Classics (NES) (Extended) Regular 24"
     item_color = "#ff8000"
