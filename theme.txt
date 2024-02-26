@@ -4,6 +4,16 @@
 #####################################################################
 
 
+# terminal
+
+terminal-border: "20"
+terminal-left: "30%"
+terminal-top: "30%"
+terminal-width: "70%"
+terminal-height: "70%"
+terminal-box: ""
+terminal-font: "Donkey Kong Classics (NES) (Extended) Regular 24"
+
 # general
 title-text: ""
 title-color: "#ffffff"
